@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation                           Infotiv Car Rental Booking
 Library                                 SeleniumLibrary
-Resource                                ../Resourses/Keywords.robot
+Resource                                Keywords.robot
 Test Setup                              Begin Web Test
 Test Teardown                           End Web Test
 
