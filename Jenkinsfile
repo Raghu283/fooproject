@@ -41,7 +41,7 @@ pipeline {
 
         stage('robot') {
                     steps {
-                        sh 'robot -d results --variable BROWSER:headlesschrome infotivHome.robot'
+                        sh 'robot -d results --variable BROWSER:headlesschrome Infotiv.robot'
                     }
                     post {
                         always {
