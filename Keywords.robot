@@ -8,7 +8,7 @@ ${VALID_PASSWORD}               Sanvi@345
 ${INVALID_PASSWORD}             121212121212
 ${LOGIN_BUTTON}                 id:login
 ${CARD_NUMBER}                  1234567890123456
-${BOOK_AUDIQ7}                id:bookQ7pass5
+${BOOK_TESLA}                id:bookModelSpass5
 ${BOOK_START}                   id:start
 ${BOOK_END}                     id:end
 ${START_RESULT}
@@ -88,7 +88,7 @@ Valid login and book car with valid input
     ${START_RESULT}                     Get Value        ${BOOK_START}
     ${END_RESULT}                       Get Value        ${BOOK_END}
     Click Continue
-    Click Button                        id:bookQ7pass5
+    Click Button                        id:bookModelSpass5
     enter valid card details
     Click Button                        id:confirm
 
