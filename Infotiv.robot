@@ -61,7 +61,7 @@ TC04_Booking the car
     Input Text                          ${BOOK_START}    ${start_date}
     Input Text                          ${BOOK_END}      ${end_date}
     Click Continue
-    Click Button                        ${BOOK_TESLA}
+    Click Button                        ${BOOK_AUDIQ7}
     Input Text                          id:cardNum  ${CARD_NUMBER}
     Input Text                          id:fullName    bhagya1 kummara1
     Click Element                       xpath://*[@id="confirmSelection"]/form/select[1]
@@ -70,7 +70,7 @@ TC04_Booking the car
     Click Element                       id:month2023
     Input Text                          id:cvc          123
     Click Button                        id:confirm
-    Page should contain                 A Tesla Model S is now ready for pickup
+    Page should contain                 A Audi Q7 is now ready for pickup
     Clean-up
 
 
